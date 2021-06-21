@@ -1,0 +1,141 @@
+{
+    "name": "rendiyu",
+    "url": "http://www.rendiyu.com/",
+    "index": "index.js",
+    "collections": [
+        "details.js"
+    ],
+    "search": {
+        "src": "search.js",
+        "data": {
+            "url": "http://www.rendiyu.com/search.php?mod=game",
+            "url2": "http://www.rendiyu.com/search.php?mod=game&searchid={1}&orderby=aid&ascdesc=desc&searchsubmit=yes&page={0}"
+        }
+    },
+    "categories": [
+        {
+            "title": "GBA中文游戏",
+            "id": "gbacn",
+            "url": "http://www.rendiyu.com/emu/gbacn/list-{0}.html",
+            "type": "Nintendo - Game Boy Advance"
+        },
+        {
+            "title": "GBA游戏下载",
+            "id": "gba",
+            "url": "http://www.rendiyu.com/emu/gba/list-{0}.html",
+            "type": "Nintendo - Game Boy Advance"
+        },
+        {
+            "title": "NDS中文游戏",
+            "id": "ndscn",
+            "url": "http://www.rendiyu.com/emu/ndscn/list-{0}.html",
+            "type": "Nintendo - Nintendo DS"
+        },
+        {
+            "title": "NDS游戏下载",
+            "id": "nds",
+            "url": "http://www.rendiyu.com/emu/nds/list-{0}.html",
+            "type": "Nintendo - Nintendo DS"
+        },
+        {
+            "title": "红白机FC中文游戏",
+            "id": "fccn",
+            "url": "http://www.rendiyu.com/emu/fccn/list-{0}.html"
+        },
+        {
+            "title": "红白机FC游戏下载",
+            "id": "fc",
+            "url": "http://www.rendiyu.com/emu/fc/list-{0}.html"
+        },
+        {
+            "title": "SFC中文游戏",
+            "id": "sfccn",
+            "url": "http://www.rendiyu.com/emu/sfccn/list-{0}.html"
+        },
+        {
+            "title": "SFC游戏下载",
+            "id": "sfc",
+            "url": "http://www.rendiyu.com/emu/sfc/list-{0}.html"
+        },
+        {
+            "title": "PS中文游戏",
+            "id": "pscn",
+            "url": "http://www.rendiyu.com/emu/pscn/list-{0}.html"
+        },
+        {
+            "title": "PS游戏下载",
+            "id": "ps",
+            "url": "http://www.rendiyu.com/emu/ps/list-{0}.html"
+        },
+        {
+            "title": "PSP中文游戏",
+            "id": "pspcn",
+            "url": "http://www.rendiyu.com/emu/pspcn/list-{0}.html"
+        },
+        {
+            "title": "PSP游戏下载",
+            "id": "psp",
+            "url": "http://www.rendiyu.com/emu/psp/list-{0}.html"
+        },
+        {
+            "title": "世嘉MD中文游戏",
+            "id": "mdcn",
+            "url": "http://www.rendiyu.com/emu/mdcn/list-{0}.html"
+        },
+        {
+            "title": "世嘉MD游戏下载",
+            "id": "md",
+            "url": "http://www.rendiyu.com/emu/md/list-{0}.html"
+        },
+        {
+            "title": "GBC中文游戏",
+            "id": "gbccn",
+            "url": "http://www.rendiyu.com/emu/gbccn/list-{0}.html"
+        },
+        {
+            "title": "GBC游戏下载",
+            "id": "gbc",
+            "url": "http://www.rendiyu.com/emu/gbc/list-{0}.html"
+        },
+        {
+            "title": "街机MAME游戏下载",
+            "id": "mame",
+            "url": "http://www.rendiyu.com/emu/mame/list-{0}.html"
+        },
+        {
+            "title": "街机MAMEPlus游戏下载",
+            "id": "mameplus",
+            "url": "http://www.rendiyu.com/emu/mameplus/list-{0}.html"
+        },
+        {
+            "title": "街机ARCADE游戏下载",
+            "id": "arcade",
+            "url": "http://www.rendiyu.com/emu/arcade/list-{0}.html"
+        },
+        {
+            "title": "DC游戏下载",
+            "id": "dc",
+            "url": "http://www.rendiyu.com/emu/dc/list-{0}.html"
+        },
+        {
+            "title": "N64游戏下载",
+            "id": "n64",
+            "url": "http://www.rendiyu.com/emu/n64/list-{0}.html"
+        },
+        {
+            "title": "NGP游戏下载",
+            "id": "ngp",
+            "url": "http://www.rendiyu.com/emu/ngp/list-{0}.html"
+        },
+        {
+            "title": "PCE游戏下载",
+            "id": "pce",
+            "url": "http://www.rendiyu.com/emu/pce/list-{0}.html"
+        },
+        {
+            "title": "WSC游戏下载",
+            "id": "wsc",
+            "url": "http://www.rendiyu.com/emu/wsc/list-{0}.html"
+        }
+    ]
+}
