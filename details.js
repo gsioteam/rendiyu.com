@@ -44,7 +44,7 @@ class DetailsCollection extends Collection {
             }
         }
         info_data.subtitle = subtitle.join('\n');
-        info_data.summary = doc.querySelector('#article_content').text.trim();
+        info_data.summary = doc.querySelector('#article_content').text.trim().replaceAll(/[\t]/g, '');
         let imgs = [];
         for (let img of doc.querySelectorAll('.ad-thumb-list > li > a')) {
             imgs.push(img.attr('href'));
