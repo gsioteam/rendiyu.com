@@ -12,6 +12,7 @@ const typeDB = {
     'MD': 'Sega - Mega Drive - Genesis',
     'GBC': 'Nintendo - Game Boy Color',
     'MAME': 'MAME',
+    'MAMEPlus': 'MAME',
     'ARCADE': 'FBNeo - Arcade Games',
     'DC': 'Sega - Dreamcast',
     'N64': 'Nintendo - Nintendo 64',
