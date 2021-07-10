@@ -6,7 +6,7 @@ function makeItem(node, pageUrl, type) {
     let link = node.querySelector('.atc > a');
     let url = link.attr('href');
     item.link = pageUrl.href(url);
-    item.picture = pageUrl.href(link.querySelector('img').attr('src'));
+    item.picture = link.querySelector('img').attr('src').replace(/^http:/, 'https:');
     item.data = {
         type: type
     };

@@ -29,7 +29,7 @@ class DetailsCollection extends Collection {
 
         let info_data = this.info_data;
         let game_item = doc.querySelector('.game_item');
-        let cover = game_item.querySelector('.atc img').attr('src');
+        let cover = game_item.querySelector('.atc img').attr('src').replace(/^http:/, 'https:');
         let list = game_item.querySelectorAll('dt');
         game_item.title = list[0].querySelector('.x_h2').text;
         let type = 'Nintendo - Game Boy Advance';
@@ -48,7 +48,7 @@ class DetailsCollection extends Collection {
         info_data.summary = doc.querySelector('#article_content').text.trim().replaceAll(/[\t]/g, '');
         let imgs = [];
         for (let img of doc.querySelectorAll('.ad-thumb-list > li > a')) {
-            imgs.push(img.attr('href'));
+            imgs.push(img.attr('href').replace(/^http:/, 'https:'));
         }
         console.log('type ' + type);
         info_data.data = {
